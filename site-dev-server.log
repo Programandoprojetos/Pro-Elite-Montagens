@@ -1,0 +1,14 @@
+
+> pro-elite-site@1.0.0 dev
+> next dev -p 3001
+
+   ▲ Next.js 15.5.18
+   - Local:        http://localhost:3001
+   - Network:      http://192.168.101.20:3001
+
+ ✓ Starting...
+ ✓ Ready in 11s
+ ○ Compiling /solicitar-orcamento ...
+ ✓ Compiled /solicitar-orcamento in 16.3s (693 modules)
+ GET /solicitar-orcamento 200 in 18302ms
+ GET /solicitar-orcamento 200 in 201ms
