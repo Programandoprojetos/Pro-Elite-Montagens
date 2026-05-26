@@ -26,7 +26,7 @@ export function RequestQuotePage() {
   const [description, setDescription] = useState("");
 
   const leadMessage = [
-    "Novo lead pelo site - Pro Elite Montagens",
+    "Ola, gostaria de solicitar um orcamento com a Pro Elite Montagens.",
     `Nome: ${name || "Nao informado"}`,
     `WhatsApp: ${phone || "Nao informado"}`,
     `Cidade: ${city || "Nao informado"}`,
