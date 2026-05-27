@@ -21,7 +21,7 @@ export function RequestQuotePage() {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [city, setCity] = useState("");
-  const [service, setService] = useState(serviceTypes[0] ?? "");
+  const [service, setService] = useState("");
   const [date, setDate] = useState("");
   const [description, setDescription] = useState("");
 
@@ -53,6 +53,7 @@ export function RequestQuotePage() {
               <label className="serviceTypeField">
                 Tipo de servico
                 <select value={service} onChange={(event) => setService(event.target.value)}>
+                  <option value="" disabled>Selecione o servico</option>
                   {serviceTypes.map((type) => <option key={type}>{type}</option>)}
                 </select>
               </label>

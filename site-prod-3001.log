@@ -1,0 +1,10 @@
+
+> pro-elite-site@1.0.0 start
+> next start -p 3001
+
+   ▲ Next.js 15.5.18
+   - Local:        http://localhost:3001
+   - Network:      http://192.168.101.20:3001
+
+ ✓ Starting...
+ ✓ Ready in 689ms
