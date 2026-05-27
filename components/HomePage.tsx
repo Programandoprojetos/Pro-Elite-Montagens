@@ -62,6 +62,7 @@ export function HomePage() {
           <div className="galleryGrid">
             {gallery.map((item) => (
               <article className="galleryCard" key={item.title}>
+                <img src={item.image} alt={item.title} />
                 <div>
                   <strong>{item.title}</strong>
                   <span>{item.city}</span>

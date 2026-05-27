@@ -126,20 +126,19 @@ export const advantages = [
 
 export const gallery = [
   {
-    title: "Guarda-roupa premium",
-    city: "Quirinopolis"
+    title: "Guarda-roupas",
+    city: "Quirinopolis",
+    image: "/galeria/guarda-roupas.png"
   },
   {
-    title: "Painel com rack",
-    city: "Regiao de Quirinopolis"
+    title: "Mesa de manicure",
+    city: "Quirinopolis",
+    image: "/galeria/mesa-de-manicure.png"
   },
   {
-    title: "Home office planejado",
-    city: "Quirinopolis"
-  },
-  {
-    title: "Quarto completo",
-    city: "Regiao de Quirinopolis"
+    title: "Painel",
+    city: "Regiao de Quirinopolis",
+    image: "/galeria/painel.png"
   }
 ];
 

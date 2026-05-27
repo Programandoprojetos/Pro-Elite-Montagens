@@ -7,8 +7,8 @@
    - Network:      http://192.168.101.20:3001
 
  ✓ Starting...
- ✓ Ready in 11s
- ○ Compiling /solicitar-orcamento ...
- ✓ Compiled /solicitar-orcamento in 16.3s (693 modules)
- GET /solicitar-orcamento 200 in 18302ms
- GET /solicitar-orcamento 200 in 201ms
+ ✓ Ready in 3.6s
+ ○ Compiling / ...
+ ✓ Compiled / in 3.6s (624 modules)
+ GET / 200 in 6221ms
+ GET / 200 in 511ms

@@ -52,8 +52,9 @@ export function GalleryPage() {
       <main className="pageMain">
         <Section eyebrow="Galeria" title="Ambientes finalizados">
           <div className="galleryGrid large">
-            {gallery.concat(gallery).map((item, index) => (
-              <article className="galleryCard" key={`${item.title}-${index}`}>
+            {gallery.map((item) => (
+              <article className="galleryCard" key={item.title}>
+                <img src={item.image} alt={item.title} />
                 <div><strong>{item.title}</strong><span>{item.city}</span></div>
               </article>
             ))}
